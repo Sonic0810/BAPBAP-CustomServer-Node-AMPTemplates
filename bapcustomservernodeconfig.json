@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "DisplayName":  "Public Base URL",
         "Description":  "External URL clients use for socket discovery and WebSocket lobby traffic.",
@@ -7,7 +7,7 @@
         "Category":  "BAPBAP - Network",
         "Subcategory":  "Endpoints",
         "ParamFieldName":  "$.CustomServer.PublicBaseUrl",
-        "DefaultValue":  "http://ark.atomi23.de:{{$ApplicationPort1}}"
+        "DefaultValue":  "http://138.201.60.230:{{$ApplicationPort1}}"
     },
     {
         "DisplayName":  "Public Game Host",
@@ -17,7 +17,7 @@
         "Category":  "BAPBAP - Network",
         "Subcategory":  "Endpoints",
         "ParamFieldName":  "$.CustomServer.PublicGameHost",
-        "DefaultValue":  "ark.atomi23.de"
+        "DefaultValue":  "138.201.60.230"
     },
     {
         "DisplayName":  "Launch Match Processes",
