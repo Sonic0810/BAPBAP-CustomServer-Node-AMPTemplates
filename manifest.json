@@ -1,0 +1,11 @@
+{
+  "id": "sonic0810-bapbap-customserver-node",
+  "authors": [
+    "Sonic0810"
+  ],
+  "origin": "https://github.com/Sonic0810/BAPBAP-CustomServer-Node-AMPTemplates.git",
+  "url": "https://github.com/Sonic0810/BAPBAP-CustomServer-Node-AMPTemplates",
+  "imagefile": "",
+  "prefix": "BAPBAP",
+  "repotype": "AppTemplates"
+}
