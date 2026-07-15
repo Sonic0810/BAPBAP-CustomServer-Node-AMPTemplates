@@ -12,6 +12,18 @@
     "SkipOnFailure": false
   },
   {
+    "UpdateStageName": "Download default game build (demo-2024-11-04_23-38-09)",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "GithubRelease",
+    "UpdateSourceArgs": "Sonic0810/BAPBAP-CustomServer-Node-AMPTemplates",
+    "UpdateSourceData": "bapcustomserver-game-default.zip",
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "UnzipUpdateSource": true,
+    "OverwriteExistingFiles": true,
+    "DeleteAfterExtract": true,
+    "SkipOnFailure": false
+  },
+  {
     "UpdateStageName": "Set bap-server executable",
     "UpdateSourcePlatform": "Linux",
     "UpdateSource": "SetExecutableFlag",
@@ -37,7 +49,7 @@
     "UpdateSourcePlatform": "Linux",
     "UpdateSource": "SetExecutableFlag",
     "UpdateSourceArgs": "{{$FullBaseDir}}start-match.sh",
-    "SkipOnFailure": true
+    "SkipOnFailure": false
   },
   {
     "UpdateStageName": "Set start-linux-wine.sh executable",
