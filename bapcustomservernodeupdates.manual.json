@@ -1,0 +1,37 @@
+[
+  {
+    "UpdateStageName": "Set bap-server executable (after manual ZIP upload)",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}bap-server",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Set amp-webpanel-start.sh executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}amp-webpanel-start.sh",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "Set bundled Node executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}node/bin/node",
+    "SkipOnFailure": true
+  },
+  {
+    "UpdateStageName": "Set start-match.sh executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}start-match.sh",
+    "SkipOnFailure": true
+  },
+  {
+    "UpdateStageName": "Set start-linux-wine.sh executable",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "SetExecutableFlag",
+    "UpdateSourceArgs": "{{$FullBaseDir}}start-linux-wine.sh",
+    "SkipOnFailure": true
+  }
+]

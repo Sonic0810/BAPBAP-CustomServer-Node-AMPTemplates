@@ -99,7 +99,7 @@
         "Category":  "BAPBAP - Network",
         "Subcategory":  "Match Host",
         "ParamFieldName":  "$.CustomServer.GameLauncherArguments",
-        "DefaultValue":  "\"{gameExecutable}\" {gameArguments}"
+        "DefaultValue":  "{gameExecutable} {gameArguments}"
     },
     {
         "DisplayName":  "Additional Game Arguments",
@@ -179,7 +179,7 @@
         "Category":  "BAPBAP - Network",
         "Subcategory":  "Match Ports",
         "ParamFieldName":  "$.CustomServer.PortSearchRange",
-        "DefaultValue":  "1"
+        "DefaultValue":  "8"
     },
     {
         "DisplayName":  "Max Concurrent Matches",
